@@ -1,0 +1,22 @@
+# site settings
+title: Louis' Blog
+description: I write about stuff I learn<br />
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://louisasanaka.me" # the base hostname & protocol for your site
+author: Louis Asanaka
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 10
+
+# social settings
+github_url: https://github.com/LouisAsanaka
+
+# copyright footer
+copyright: true # accepts "true" or "false"
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
